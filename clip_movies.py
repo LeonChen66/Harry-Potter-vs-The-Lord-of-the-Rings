@@ -4,7 +4,7 @@ import cv2
 Unit start_time & end_tim (min)
      freq (sec)
 """
-def movieClipper(movie_name, dir_name, start_time=0, end_time=200,freq=1):
+def movieClipper(movie_name, dir_name, start_time=0, end_time=200,freq=1,resize=False):
     file_name = 'Movies/'+movie_name
     vidcap = cv2.VideoCapture(file_name)
     success, image = vidcap.read()
@@ -15,8 +15,12 @@ def movieClipper(movie_name, dir_name, start_time=0, end_time=200,freq=1):
         success, image = vidcap.read()
         at_time = count/1000
         moment = "{:.0f}_{:02.0f}".format(at_time//60,at_time%60)
-        #print(moment)
-        cv2.imwrite("{}/frame{}.jpg".format(dir_name, moment),
+        print("{}/frame_{}_{}.jpg".format(dir_name, movie_name[:-4], moment))
+        if resize==True:
+            image = cv2.resize(image,(64,64))
+        save_name = "{}/frame_{}_{}.jpg".format(
+            dir_name, movie_name.split('/')[-1][:-4], moment)
+        cv2.imwrite( save_name,
                     image)     # save frame as JPEG file
         # Current position of the video file in milliseconds or video capture timestamp.
 
@@ -24,7 +28,8 @@ def movieClipper(movie_name, dir_name, start_time=0, end_time=200,freq=1):
         count += freq*1000
 
 def main():
-    movieClipper('500 Days Of Summer.2009.720p.BDRip.x264-VLiS.mp4','Got',10,180,60)
+    movieClipper(
+        'LoR/The.Lord.of.the.Rings.The.Two.Towers.2002.ExD.1080p.BrRip.x264.mp4', 'LoR', 10, 210, 60, False)
 
 if __name__ == "__main__":
     main()
