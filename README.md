@@ -63,18 +63,15 @@ The Return of the King (2003)
 
 
 #### Let's using simple CNN model to test ! The results look great !
-<p align="center"> 
-    <img src="https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/harry_potter_footage_rpg_leak.jpeg?itok=ZDCBGdBt" style="width:400px;height:400px;">
-</p>
-  
+<img src="https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/harry_potter_footage_rpg_leak.jpeg?itok=ZDCBGdBt" style="width:250px;height:250px;">
+
 | Harry Potter               | The Lord of the Rings    |
 | :-------------------------:|:------------------------:|
 | 93.2%                      | 6.8 %                    |
   
   
-<p align="center"> 
-    <img src="http://20.theladbiblegroup.com/s3/content/df6a49665a09edb4fe9c6c3738c79f29.jpg" style="width:400px;height:400px;">
-</p>
+ 
+<img src="http://20.theladbiblegroup.com/s3/content/df6a49665a09edb4fe9c6c3738c79f29.jpg" style="width:250px;height:250px;">
   
 | Harry Potter               | The Lord of the Rings    |
 | :-------------------------:|:------------------------:|
