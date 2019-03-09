@@ -38,7 +38,7 @@ __As a result, I came up with an idea that train models to recognize the input i
 ### Experiments Sum up
 
 Dataset : 
-* __Harry Potter films : 5007 images__
+* __Harry Potter films : 5007 images__  
 The Philosopher's Stone (1997)  
 The Chamber of Secrets (1998)  
 The Prisoner of Azkaban (1999)  
@@ -48,7 +48,7 @@ The Half-Blood Prince (2005)
 The Deathly Hallows (2007)  
 
 * __The Lord of the Rings films : 2902 images__  
-The Fellowship of the Ring (2001)
+The Fellowship of the Ring (2001)  
 The Two Towers (2002)  
 The Return of the King (2003)
 
