@@ -1,4 +1,4 @@
-# Movie-Classifier
+# Harry Potter vs The Lord of the Rings
 
 ## A movie classifier using Machine Learning methods
 
@@ -77,5 +77,8 @@ The Return of the King (2003)
 | :-------------------------:|:------------------------:|
 | 0.1%                       | 99.9 %                   |
 
-
+### Convolutional neural network
+###
+### Random Forest
+### Transfer Learning
 Ref: Voulodimos, A., Doulamis, N., Doulamis, A., & Protopapadakis, E. (2018). Deep learning for computer vision: a brief review. Computational intelligence and neuroscience, 2018.
