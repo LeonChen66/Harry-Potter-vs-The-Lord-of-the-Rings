@@ -27,7 +27,7 @@ __As a result, I came up with an idea that train models to recognize the input i
 ###### Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles (non-magical people).
 
 ### Machine Learning Background
-###### Over the last years deep learning methods have been shown to outperform previous state-of-the-art machine learning techniques in several fields, with computer vision being one of the most prominent cases. The following 2 figures can expain the difference between conventional Machine Learning and Deep Learning. Deep learning allows computational models of multiple processing layers to learn and represent data with multiple levels of abstraction mimicking how the brain perceives and understands multimodal information, thus implicitly capturing intricate structures of large‐scale data. In computer vision, the most commonly method is convolutional neural network.
+##### Over the last years deep learning methods have been shown to outperform previous state-of-the-art machine learning techniques in several fields, with computer vision being one of the most prominent cases. The following 2 figures can expain the difference between conventional Machine Learning and Deep Learning. Deep learning allows computational models of multiple processing layers to learn and represent data with multiple levels of abstraction mimicking how the brain perceives and understands multimodal information, thus implicitly capturing intricate structures of large‐scale data. In computer vision, the most commonly method is convolutional neural network.
   
 <p align="center"> 
 <img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1542231692/AI_circle_ohnzmy.jpg" style="width:150px;height:150px;">&nbsp;&nbsp;
@@ -78,7 +78,7 @@ The Return of the King (2003)
 | 0.1%                       | 99.9 %                   |
 
 ### Convolutional neural network
-###
-### Random Forest
 ### Transfer Learning
+### Random Forest
+### Support Vector Machine 
 Ref: Voulodimos, A., Doulamis, N., Doulamis, A., & Protopapadakis, E. (2018). Deep learning for computer vision: a brief review. Computational intelligence and neuroscience, 2018.
