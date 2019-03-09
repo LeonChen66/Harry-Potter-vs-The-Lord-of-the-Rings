@@ -58,8 +58,8 @@ The Return of the King (2003)
 | :--------------------------------:|:--------------:|
 | Simple CNN                        | 90.82 %        |
 | Transfer Learning with VGG16      |                |
-| Random Forest Using Hog           | 73.38 %        |
-| Support Vector Machine Using Hog  | 64.22 %        |
+| Random Forest Using HOG           | 73.38 %        |
+| Support Vector Machine Using HOG  | 64.22 %        |
 
 
 #### Let's using simple CNN model to test ! The results look great !
@@ -89,7 +89,37 @@ The Return of the King (2003)
 * Loss Function of Simple CNN  
 ![alt text](https://github.com/LeonChen66/Harry-Potter-vs-The-Lord-of-the-Rings/blob/master/images/cnn_loss.png "Logo Title Text 1")
 
-### Transfer Learning
+### Transfer Learning with VGG16
+* __Schematic Diagram of VGG16 Model:__  
+![alt text](https://flyyufelix.github.io/img/vgg16.png "Logo Title Text 1")  
+##### Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task.
+
+##### It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems
+<blockquote><p>Transfer learning is the improvement of learning in a new task through the transfer of knowledge from a related task that has already been learned.</p></blockquote>
+<p>— <a href="ftp://ftp.cs.wisc.edu/machine-learning/shavlik-group/torrey.handbook09.pdf">Chapter 11: Transfer Learning</a>, <a href="http://amzn.to/2fgeVro">Handbook of Research on Machine Learning Applications</a>, 2009.</p>
+
+### Histogram of oriented gradients(HOG)
+##### The histogram of oriented gradients (HOG) is a feature descriptor used in computer vision and image processing for the purpose of object detection. The technique counts occurrences of gradient orientation in localized portions of an image. This method is similar to that of edge orientation histograms, scale-invariant feature transform descriptors, and shape contexts, but differs in that it is computed on a dense grid of uniformly spaced cells and uses overlapping local contrast normalization for improved accuracy.
+* __HOG feature extraction__
+![alt text](https://www.researchgate.net/publication/315808348/figure/fig2/AS:482045051838465@1491939904103/HOG-feature-extraction-a-input-image-b-edge-detection-and-division-into.png "Logo Title Text 1")  
+
 ### Random Forest
+##### Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of overfitting to their training set.
+* __Its main idea is "Bagging"__  
+
+![alt text](https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/7/76/Random_forest_diagram_complete.png?zoom=2&w=456&ssl=1 "Logo Title Text 1")  
+
 ### Support Vector Machine 
-Ref: Voulodimos, A., Doulamis, N., Doulamis, A., & Protopapadakis, E. (2018). Deep learning for computer vision: a brief review. Computational intelligence and neuroscience, 2018.
+##### Support-vector machines (SVMs, also support-vector networks[1]) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. 
+##### More formally, a support-vector machine constructs a hyperplane or set of hyperplanes in a high- or infinite-dimensional space, which can be used for classification, regression, or other tasks like outliers detection
+
+* __Concept of SVM__    
+
+![alt text](https://cdn-images-1.medium.com/max/1600/1*nUpw5agP-Vefm4Uinteq-A.png "Logo Title Text 1")
+  
+* __Hyperplane__  
+
+![alt text](https://appliedmachinelearning.files.wordpress.com/2017/03/svm_logo1.png)
+
+__Reference:__   
+[1] Voulodimos, A., Doulamis, N., Doulamis, A., & Protopapadakis, E. (2018). Deep learning for computer vision: a brief review. Computational intelligence and neuroscience, 2018.
