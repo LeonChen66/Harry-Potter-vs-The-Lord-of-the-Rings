@@ -28,10 +28,12 @@ def basicCNNbuild(batch_size=32,epoch=30,input_shape=(64,64,3)):
     model.add(MaxPooling2D(pool_size=(2, 2)))
 
     model.add(Flatten())  # this converts our 3D feature maps to 1D feature vectors
-    model.add(Dense(64))
+    model.add(Dense(500))
     model.add(Activation('relu'))
-    #model.add(Dropout(0.5))
-    model.add(BatchNormalization())
+    model.add(Dropout(0.5))
+    model.add(Dense(500))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.5))
     model.add(Dense(2))
     model.add(Activation('softmax'))
 
@@ -42,7 +44,7 @@ def basicCNNbuild(batch_size=32,epoch=30,input_shape=(64,64,3)):
     return model
 
 
-def load_images(path='train', validation_size=0.2, batch_size=32, target_size=(64,64)):
+def load_images(path='train', validation_size=0.1, batch_size=32, target_size=(64,64)):
     train_datagen = ImageDataGenerator(rescale=1./255,
                                     shear_range=0.2,
                                     zoom_range=0.2,
@@ -70,8 +72,8 @@ def load_images(path='train', validation_size=0.2, batch_size=32, target_size=(6
 def train_model(model, train_generator, validation_generator,batch_size=32):
     history = model.fit_generator(
         train_generator,
-        steps_per_epoch=400//batch_size,
-        epochs=30,
+        steps_per_epoch=3000//batch_size,
+        epochs=50,
         validation_data=validation_generator,
         validation_steps=40 // batch_size)
     return history
@@ -101,7 +103,8 @@ if __name__ == "__main__":
     model = basicCNNbuild()
     (train_generator, validation_generator) = load_images()
     #print(train_generator.next()[0])
-    train_model(model, train_generator, validation_generator)
+    history = train_model(model, train_generator, validation_generator)
     model.save('basicCNN_model.h5', overwrite=True)
     score = model.evaluate_generator(validation_generator,32)
     print("Loss: ", score[0], "Accuracy: ", score[1])
+    plot_loss(history)
