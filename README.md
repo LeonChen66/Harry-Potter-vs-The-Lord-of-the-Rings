@@ -78,6 +78,9 @@ The Return of the King (2003)
 | 0.1%                       | 99.9 %                   |
 
 ### Convolutional neural network
+* Loss Function of Simple CNN  
+![alt text](https://github.com/LeonChen66/Harry-Potter-vs-The-Lord-of-the-Rings/blob/master/images/cnn_loss.png "Logo Title Text 1")
+
 ### Transfer Learning
 ### Random Forest
 ### Support Vector Machine 
