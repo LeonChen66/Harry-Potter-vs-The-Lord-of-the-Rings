@@ -110,8 +110,10 @@ The Return of the King (2003)
 ### Random Forest
 ##### Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of overfitting to their training set.
 * __Its main idea is "Bagging"__  
-
+  
+<p align="center"> 
 ![alt text](https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/7/76/Random_forest_diagram_complete.png?zoom=2&w=456&ssl=1 "Logo Title Text 1")  
+</p>  
 
 ### Support Vector Machine 
 ##### Support-vector machines (SVMs, also support-vector networks[1]) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. 
@@ -120,13 +122,13 @@ The Return of the King (2003)
 * __Concept of SVM__    
 
 <p align="center"> 
-<img src="https://cdn-images-1.medium.com/max/1600/1*nUpw5agP-Vefm4Uinteq-A.png" width="800" height="350"/>
+<img src="https://cdn-images-1.medium.com/max/1600/1*nUpw5agP-Vefm4Uinteq-A.png" width="700" height="300"/>
 </p>  
 
 * __Hyperplane__   
 
 <p align="center"> 
-<img src="https://appliedmachinelearning.files.wordpress.com/2017/03/svm_logo1.png" alt="drawing" width="350" height="350"/>
+<img src="https://appliedmachinelearning.files.wordpress.com/2017/03/svm_logo1.png" alt="drawing" width="300" height="300"/>
 </p>
   
 
