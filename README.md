@@ -101,8 +101,11 @@ The Return of the King (2003)
 ### Histogram of oriented gradients(HOG)
 ##### The histogram of oriented gradients (HOG) is a feature descriptor used in computer vision and image processing for the purpose of object detection. The technique counts occurrences of gradient orientation in localized portions of an image. This method is similar to that of edge orientation histograms, scale-invariant feature transform descriptors, and shape contexts, but differs in that it is computed on a dense grid of uniformly spaced cells and uses overlapping local contrast normalization for improved accuracy.
 * __HOG feature extraction__  
-* 
-<img src="https://www.researchgate.net/publication/315808348/figure/fig2/AS:482045051838465@1491939904103/HOG-feature-extraction-a-input-image-b-edge-detection-and-division-into.png" width="400" height="700"/>
+  
+<p align="center"> 
+<img src="https://www.researchgate.net/publication/315808348/figure/fig2/AS:482045051838465@1491939904103/HOG-feature-extraction-a-input-image-b-edge-detection-and-division-into.png" width="450" height="600"/>
+</p>
+  
 
 ### Random Forest
 ##### Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of overfitting to their training set.
@@ -115,11 +118,17 @@ The Return of the King (2003)
 ##### More formally, a support-vector machine constructs a hyperplane or set of hyperplanes in a high- or infinite-dimensional space, which can be used for classification, regression, or other tasks like outliers detection
 
 * __Concept of SVM__    
-<img src="https://cdn-images-1.medium.com/max/1600/1*nUpw5agP-Vefm4Uinteq-A.png" width="700" height="400"/>
-  
+
+<p align="center"> 
+<img src="https://cdn-images-1.medium.com/max/1600/1*nUpw5agP-Vefm4Uinteq-A.png" width="800" height="350"/>
+</p>  
+
 * __Hyperplane__   
+
+<p align="center"> 
+<img src="https://appliedmachinelearning.files.wordpress.com/2017/03/svm_logo1.png" alt="drawing" width="350" height="350"/>
+</p>
   
-<img src="https://appliedmachinelearning.files.wordpress.com/2017/03/svm_logo1.png" alt="drawing" width="400" height="400"/>
-  
+
 __Reference:__   
 [1] Voulodimos, A., Doulamis, N., Doulamis, A., & Protopapadakis, E. (2018). Deep learning for computer vision: a brief review. Computational intelligence and neuroscience, 2018.
