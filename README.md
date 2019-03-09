@@ -119,7 +119,7 @@ The Return of the King (2003)
   
 * __Hyperplane__   
   
-<img src="https://appliedmachinelearning.files.wordpress.com/2017/03/svm_logo1.png" alt="drawing" style="width:50px;height:50px;"/>
+<img src="https://appliedmachinelearning.files.wordpress.com/2017/03/svm_logo1.png" alt="drawing" width="200" height="200"/>
   
 __Reference:__   
 [1] Voulodimos, A., Doulamis, N., Doulamis, A., & Protopapadakis, E. (2018). Deep learning for computer vision: a brief review. Computational intelligence and neuroscience, 2018.
