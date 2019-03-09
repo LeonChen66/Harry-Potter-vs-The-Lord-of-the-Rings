@@ -31,7 +31,7 @@ __As a result, I came up with an idea that train models to recognize the input i
   
 <p align="center"> 
 <img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1542231692/AI_circle_ohnzmy.jpg" style="width:150px;height:150px;">&nbsp;&nbsp;
-<img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1542231691/data_bw94vh.png " style="width:250px;height:170px;">
+<img src="https://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1542231691/data_bw94vh.png" style="width:250px;height:170px;">
 </p>
   
 
