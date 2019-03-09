@@ -4,8 +4,8 @@
 
 ### Introducntio of the project
 
-##### It's always been a great debate: The Lord of the Rings vs. Harry Potter  
-##### Which is the greater fantasy movie ? I always vote for Harry Patter, since Harry Potter accompanied my childhood.  
+#### It's always been a great debate: The Lord of the Rings vs. Harry Potter  
+#### Which is the greater fantasy movie ? I always vote for Harry Patter, since Harry Potter accompanied my childhood.  
 
 __As a result, I came up with an idea that train models to recognize the input images on Harry Potter & The Lord of the Rings. Moreover, compare different machine learning methods espeically in Computer Vision.__
 
@@ -52,7 +52,7 @@ The Fellowship of the Ring (2001)
 The Two Towers (2002)  
 The Return of the King (2003)
 
-##### I clip video every 10 sec in the films. 
+#### I clip video every 10 sec in the films. 
 
 | Model                             | Accuracy       |
 | :--------------------------------:|:--------------:|
@@ -62,10 +62,11 @@ The Return of the King (2003)
 | Support Vector Machine Using Hog  | 64.22 %        |
 
 
-##### Let's using simple CNN model to test ! The results look great !
+#### Let's using simple CNN model to test ! The results look great !
 <p align="center"> 
     <img src="https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/harry_potter_footage_rpg_leak.jpeg?itok=ZDCBGdBt" style="width:400px;height:400px;">
 </p>
+
 | Harry Potter               | The Lord of the Rings    |
 | :-------------------------:|:------------------------:|
 | 93.2%                      | 6.8 %                    |
@@ -74,6 +75,7 @@ The Return of the King (2003)
 <p align="center"> 
     <img src="http://20.theladbiblegroup.com/s3/content/df6a49665a09edb4fe9c6c3738c79f29.jpg" style="width:400px;height:400px;">
 </p>
+
 | Harry Potter               | The Lord of the Rings    |
 | :-------------------------:|:------------------------:|
 | 0.1%                       | 99.9 %                    |
