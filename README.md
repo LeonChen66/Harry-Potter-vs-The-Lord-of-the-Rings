@@ -52,36 +52,37 @@ The Fellowship of the Ring (2001)
 The Two Towers (2002)  
 The Return of the King (2003)
 
-#### I clip video every 10 sec in the films. 
+#### I clip video every 10 sec in the films. So the Harry Potter has 5000 images and The Lord of the Rings has 3000 images. 
 
-| Model                             | Accuracy       |
-| :--------------------------------:|:--------------:|
-| Simple CNN                        | 90.82 %        |
-| Transfer Learning with VGG16      |                |
-| Random Forest Using HOG           | 73.38 %        |
-| Support Vector Machine Using HOG  | 64.22 %        |
+
+|              Model               | Accuracy |
+| :------------------------------: | :------: |
+|            Simple CNN            | 90.82 %  |
+|   Transfer Learning with VGG16   |          |
+|     Random Forest Using HOG      | 73.38 %  |
+| Support Vector Machine Using HOG | 64.22 %  |
 
 
 #### Let's using simple CNN model to test ! The results look great !
 <img src="https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/harry_potter_footage_rpg_leak.jpeg?itok=ZDCBGdBt" style="width:250px;height:250px;">
 
-| Harry Potter               | The Lord of the Rings    |
-| :-------------------------:|:------------------------:|
-| 93.2%                      | 6.8 %                    |
+| Harry Potter | The Lord of the Rings |
+| :----------: | :-------------------: |
+|    93.2%     |         6.8 %         |
   
   
  
 <img src="http://20.theladbiblegroup.com/s3/content/df6a49665a09edb4fe9c6c3738c79f29.jpg" style="width:250px;height:250px;">
   
-| Harry Potter               | The Lord of the Rings    |
-| :-------------------------:|:------------------------:|
-| 0.1%                       | 99.9 %                   |
+| Harry Potter | The Lord of the Rings |
+| :----------: | :-------------------: |
+|     0.1%     |        99.9 %         |
 
 ### Convolutional neural network
 ##### CNNs use a variation of multilayer perceptrons designed to require minimal preprocessing.They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on their shared-weights architecture and translation invariance characteristics. CNNs use relatively little pre-processing compared to other image classification algorithms. This means that the network learns the filters that in traditional algorithms were hand-engineered. This independence from prior knowledge and human effort in feature design is a major advantage.
 
 
-＊ A single figure to understand Convolutional neural network  
+* A single figure to understand Convolutional neural network  
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*N4h1SgwbWNmtrRhszM9EJg.png "Logo Title Text 1") 
 * The model Architecture
 ![alt text](https://github.com/LeonChen66/Harry-Potter-vs-The-Lord-of-the-Rings/blob/master/images/cnnmodel.png "Logo Title Text 1")  
@@ -97,6 +98,11 @@ The Return of the King (2003)
 ##### It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems
 <blockquote><p>Transfer learning is the improvement of learning in a new task through the transfer of knowledge from a related task that has already been learned.</p></blockquote>
 <p>— <a href="ftp://ftp.cs.wisc.edu/machine-learning/shavlik-group/torrey.handbook09.pdf">Chapter 11: Transfer Learning</a>, <a href="http://amzn.to/2fgeVro">Handbook of Research on Machine Learning Applications</a>, 2009.</p>
+
+* Experience of Transfer Learning.
+##### Not just for ImageNet, if you have enough data it's better to train your network from scratch. That are several reasons can explain it. And the results of tranfer learning does not obviously improve because the dataset is large enough I think.
+
+
 
 ### Histogram of oriented gradients(HOG)
 ##### The histogram of oriented gradients (HOG) is a feature descriptor used in computer vision and image processing for the purpose of object detection. The technique counts occurrences of gradient orientation in localized portions of an image. This method is similar to that of edge orientation histograms, scale-invariant feature transform descriptors, and shape contexts, but differs in that it is computed on a dense grid of uniformly spaced cells and uses overlapping local contrast normalization for improved accuracy.
@@ -128,7 +134,7 @@ The Return of the King (2003)
 <p align="center"> 
 <img src="https://appliedmachinelearning.files.wordpress.com/2017/03/svm_logo1.png" alt="drawing" width="300" height="300"/>
 </p>
-  
+
 
 __Reference:__   
 [1] Voulodimos, A., Doulamis, N., Doulamis, A., & Protopapadakis, E. (2018). Deep learning for computer vision: a brief review. Computational intelligence and neuroscience, 2018.
